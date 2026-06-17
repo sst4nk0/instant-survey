@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Динамический опрос</title>
+    <title>Анкетирование пользователей</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <main class="survey-wrapper">
+    <main class="survey-container">
         <h1 class="survey-title">Анкетирование пользователей</h1>
 
         <form id="survey-form">
-            <div id="questions-container">
-                <p class="loading-text">Загрузка вопросов, пожалуйста, подождите...</p>
+            <!-- Контейнер для динамических вопросов -->
+            <div id="questions-wrapper">
+                <p class="status-text">Загрузка вопросов...</p>
             </div>
 
-            <button type="submit" id="download-btn" class="submit-btn hidden">
+            <!-- Кнопка отправки -->
+            <button type="submit" id="submit-btn" class="submit-button hidden">
                 Скачать результаты (.txt)
             </button>
         </form>

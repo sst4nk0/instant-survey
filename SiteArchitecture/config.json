@@ -1,17 +1,22 @@
 [
   {
-    "id": "q1",
+    "id": "name_city",
     "type": "text",
     "text": "Как вас зовут и из какого вы города?"
   },
   {
-    "id": "q2",
+    "id": "phone",
+    "type": "phone",
+    "text": "Ваш номер телефона"
+  },
+  {
+    "id": "os",
     "type": "single",
     "text": "Какая операционная система установлена на вашем компьютере?",
     "options": ["Windows", "macOS", "Linux", "Другая"]
   },
   {
-    "id": "q3",
+    "id": "tech",
     "type": "multiple",
     "text": "Какие технологии вы планируете использовать в работе? (Несколько вариантов)",
     "options": ["HTML / CSS", "JavaScript / TypeScript", "Node.js", "Python / Django", "Docker"]
